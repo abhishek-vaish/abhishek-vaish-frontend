@@ -2,6 +2,7 @@ import React from "react";
 import "./Invoice.css";
 import Invoice_Card from "../Card/Invoice-Card";
 import ThreeCircle from "../ThreeCircle/ThreeCircle";
+import NorthEastArrow from "../../assets/north-east-arrow.svg";
 
 const Invoice = () => {
   return (
@@ -14,6 +15,7 @@ const Invoice = () => {
           </div>
           <div className="header_icon">
             <i className="fas fa-sliders-h"></i>
+            <img src={NorthEastArrow} alt="arrow"></img>
           </div>
         </div>
         <div className="invoice_card_row">
