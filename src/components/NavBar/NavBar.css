@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #f1f2f2;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0px;
+  justify-content: space-between;
+}
+
+.navbar .profile .avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 100px;
+  background-color: #a5a7a6;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar .profile .avatar img {
+  width: 100px;
+  border-radius: 40%;
+}
+
+.navbar .profile .content {
+  text-align: center;
+}
+
+.navbar .menu .dashboard,
+.clients,
+.invoice,
+.estimate,
+.team {
+  margin: 20px 0px;
+}
+
+.settings {
+  width: 100%;
+  display: flex;
+  padding: 0px 40px;
+  justify-content: space-between;
+  color: #a5a7a6;
+}
+
+.setting-icon {
+  display: flex;
+}
+
+.setting-icon .icon {
+  margin-right: 10px;
+}
+
+.dashboard-1,
+.clients,
+.invoice,
+.estimate,
+.team {
+  display: flex;
+}
+
+.icon {
+  margin-right: 5px;
+}
