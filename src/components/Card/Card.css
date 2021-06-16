@@ -1,0 +1,42 @@
+.content-card {
+  width: 180px;
+  height: 200px;
+  padding: 15px 20px;
+  margin-top: 20px;
+  margin-right: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.top-layer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon-top {
+  margin-top: 5px;
+  color: #a5a7a6;
+}
+
+.icon-top .material-icons {
+  font-size: 14pt;
+}
+
+.price-date span {
+  font-size: 6pt;
+}
+
+.price-date p {
+  font-size: 9pt;
+}
+
+.title-bottom p {
+  font-size: 9pt;
+}
+
+.icon-bottom i {
+  font-size: 24pt;
+  margin-bottom: 4px;
+}
