@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import "../../../node_modules/material-design-icons/iconfont/material-icons.css";
+import Circle from "../../assets/circle.svg";
 
 const Card = (props) => {
   return (
@@ -22,7 +23,11 @@ const Card = (props) => {
         </div>
         <div className="bottom-layer">
           <div className="icon-bottom">
-            <i class={props.icon}></i>
+            {props.icon ? (
+              <i class={props.icon}></i>
+            ) : (
+              <img style={{ width: "35px" }} src={Circle} alt="icon"></img>
+            )}
           </div>
           <div className="title-bottom">
             <p>{props.title}</p>
