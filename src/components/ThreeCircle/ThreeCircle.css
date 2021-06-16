@@ -1,0 +1,18 @@
+.circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.circle.circle-1 {
+  background-color: #dba060;
+}
+
+.circle.circle-2-update {
+  background-color: #b5d0c1;
+}
+
+.circle.circle-3 {
+  background-color: #a5a7a6;
+}
