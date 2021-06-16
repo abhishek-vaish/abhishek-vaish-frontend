@@ -5,7 +5,7 @@ import "../../../node_modules/material-design-icons/iconfont/material-icons.css"
 
 const NavBar = () => {
   return (
-    <div className="navbar">
+    <div id="navbar">
       <div className="profile">
         <div className="avatar">
           <img src={profile} alt="profile"></img>
@@ -17,7 +17,9 @@ const NavBar = () => {
       </div>
       <div className="menu">
         <div className="dashboard-1">
-          <div className="icon"></div>
+          <div className="icon">
+            <span class="material-icons">dashboard</span>
+          </div>
           <div className="title">Dashboard</div>
         </div>
         <div className="clients">
@@ -34,7 +36,7 @@ const NavBar = () => {
         </div>
         <div className="estimate">
           <div className="icon">
-            {/* <span class="material-icons">article</span> */}
+            <span class="material-icons">description</span>
           </div>
           <div className="title">Estimates</div>
         </div>
