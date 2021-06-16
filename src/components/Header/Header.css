@@ -45,6 +45,16 @@
   height: 20px;
   background-color: #040404;
   border-radius: 5px 0px 0px 5px;
+  animation: fill-animation 2s;
+}
+
+@keyframes fill-animation {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 100px;
+  }
 }
 
 .revenue {
