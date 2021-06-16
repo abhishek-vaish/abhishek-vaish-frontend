@@ -34,7 +34,7 @@
 .invoice,
 .estimate,
 .team {
-  margin: 20px 0px;
+  margin: 15px 0px;
 }
 
 .settings {
@@ -68,4 +68,8 @@
 .left {
   background: transparent;
   border: 0;
+}
+
+.menu__title {
+  font-size: 10pt;
 }
