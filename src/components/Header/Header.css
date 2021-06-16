@@ -1,0 +1,61 @@
+.header {
+  display: flex;
+  align-items: flex-end;
+}
+
+.invoice-1 {
+  margin-right: 50px;
+}
+
+.outstanding,
+.indraft,
+.revenue {
+  margin: 0px 50px;
+}
+
+.title-1 {
+  font-size: 8pt;
+  margin-bottom: 10px;
+}
+
+.invoice-title {
+  margin-bottom: 0px;
+}
+
+.price {
+  font-size: 17pt;
+  margin: 0;
+}
+
+.value {
+  font-size: 6pt;
+  color: #a5a7a6;
+  margin-top: 10px;
+}
+
+.rectangle-1 {
+  width: 200px;
+  height: 20px;
+  background-color: #f7f7f7;
+  border-radius: 5px;
+}
+
+.fill {
+  width: 100px;
+  height: 20px;
+  background-color: #040404;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.revenue {
+  display: flex;
+  align-items: center;
+}
+
+.bar-graph {
+  margin-right: 50px;
+}
+
+.icon-search {
+  margin-left: 100px;
+}
