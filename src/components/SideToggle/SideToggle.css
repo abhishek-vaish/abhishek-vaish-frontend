@@ -1,0 +1,83 @@
+.sidetoggle {
+  background-color: #040404;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.sidetoggle__icons .icons__circles {
+  display: flex;
+  justify-content: center;
+}
+
+.sidetoggle__icons .icons__circles .circle {
+  width: 5px;
+  height: 5px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.sidetoggle__icons .icons__circles .circle.circle-1 {
+  background-color: #dba060;
+}
+
+.sidetoggle__icons .icons__circles .circle.circle-2 {
+  background-color: #b5d0c1;
+}
+
+.sidetoggle__icons .icons__circles .circle.circle-3 {
+  background-color: #a5a7a6;
+}
+
+.sidetoggle__icons .icons__decorator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.sidetoggle__icons .icons__decorator .circle__icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+
+.sidetoggle__icons .icons__decorator .circle__icon.triangle {
+  background-color: #b5d0c1;
+}
+
+.sidetoggle__icons .icons__decorator .circle__icon.rectangle {
+  background-color: #d1ffd5;
+}
+
+.sidetoggle__icons .icons__decorator .circle__icon.add_item {
+  background-color: #3e4844;
+}
+
+.sidetoggle__icons .icons__decorator .circle__icon .triangle {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid black;
+}
+
+.sidetoggle__icons .icons__decorator .circle__icon .rectangle {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+}
+
+.sidetoggle__icons .icons__decorator .circle__icon.add_item .add {
+  font-size: 15pt;
+  color: white;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
