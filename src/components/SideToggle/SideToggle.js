@@ -1,15 +1,12 @@
 import React from "react";
 import "./SideToggle.css";
+import ThreeCircle from "../ThreeCircle/ThreeCircle";
 
 const SideToggle = () => {
   return (
     <div className="sidetoggle">
       <div className="sidetoggle__icons">
-        <div className="icons__circles">
-          <div className="circle circle-1" />
-          <div className="circle circle-2" />
-          <div className="circle circle-3" />
-        </div>
+        <ThreeCircle />
         <div className="icons__decorator">
           <div className="circle__icon triangle">
             <div className="triangle" />
