@@ -1,0 +1,33 @@
+.invoice-component {
+  margin-top: 40px;
+}
+
+.content-3 {
+  display: flex;
+  align-items: baseline;
+}
+
+.invoice_card_row {
+  display: flex;
+}
+
+.upload_image {
+  width: 200px;
+  height: 170px;
+  background-color: #fafafa;
+  padding: 20px 15px;
+  border-radius: 10px;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+
+.image_rectangle {
+  height: 160px;
+  border: 1px dotted #a5a7a6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
