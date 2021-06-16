@@ -14,5 +14,5 @@ The application is deploy to Netlify. You can check it out by clicking [here](ht
 ## Screenshot
 ![screenshot](/src/assets/screenshot.JPG)
 
-## LinkedIn Hangle
+## LinkedIn Handle
 https://www.linkedin.com/in/abhishek-vaish
