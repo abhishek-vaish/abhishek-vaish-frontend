@@ -2,6 +2,7 @@ import React from "react";
 import Card from "../Card/Card";
 import "./Expenses.css";
 import "../../../node_modules/material-design-icons/iconfont/material-icons.css";
+import NorthEastIcon from "../../assets/north-east-arrow.svg";
 
 const Expenses = () => {
   return (
@@ -9,7 +10,7 @@ const Expenses = () => {
       <div className="title-expenses">
         <h3>Expenses</h3>
         <div className="icon">
-          {/* <span class="material-icons">north_east</span> */}
+          <img style={{ width: "15px" }} src={NorthEastIcon} alt="north-east" />
         </div>
       </div>
       <div className="card-expenses">
