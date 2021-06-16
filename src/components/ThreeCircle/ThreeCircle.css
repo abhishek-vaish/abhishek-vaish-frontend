@@ -1,18 +1,22 @@
-.circle {
+.icons__circles {
+  display: flex;
+}
+
+.tcircle {
   width: 5px;
   height: 5px;
   border-radius: 10px;
-  margin: 10px;
+  margin: 10px 15px 10px 0px;
 }
 
-.circle.circle-1 {
+.tcircle.circle-1 {
   background-color: #dba060;
 }
 
-.circle.circle-2-update {
+.tcircle.circle-2-update {
   background-color: #b5d0c1;
 }
 
-.circle.circle-3 {
+.tcircle.circle-3 {
   background-color: #a5a7a6;
 }
