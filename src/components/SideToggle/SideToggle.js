@@ -6,7 +6,9 @@ const SideToggle = () => {
   return (
     <div className="sidetoggle">
       <div className="sidetoggle__icons">
-        <ThreeCircle />
+        <div className="side_three_circle">
+          <ThreeCircle />
+        </div>
         <div className="icons__decorator">
           <div className="circle__icon triangle">
             <div className="triangle" />
@@ -15,7 +17,9 @@ const SideToggle = () => {
             <div className="rectangle" />
           </div>
           <div className="circle__icon add_item">
-            <p className="add">+</p>
+            <p className="add">
+              <span class="material-icons">add</span>
+            </p>
           </div>
         </div>
       </div>
