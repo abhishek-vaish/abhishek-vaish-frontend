@@ -20,31 +20,31 @@ const NavBar = () => {
           <div className="icon">
             <span class="material-icons">dashboard</span>
           </div>
-          <div className="title">Dashboard</div>
+          <div className="menu__title">Dashboard</div>
         </div>
         <div className="clients">
           <div className="icon">
             <span class="material-icons">person</span>
           </div>
-          <div className="title">Clients</div>
+          <div className="menu__title">Clients</div>
         </div>
         <div className="invoice">
           <div className="icon">
             <span class="material-icons">system_update</span>
           </div>
-          <div className="title">Invoices</div>
+          <div className="menu__title">Invoices</div>
         </div>
         <div className="estimate">
           <div className="icon">
             <span class="material-icons">description</span>
           </div>
-          <div className="title">Estimates</div>
+          <div className="menu__title">Estimates</div>
         </div>
         <div className="team">
           <div className="icon">
             <span class="material-icons">group</span>
           </div>
-          <div className="title">My team</div>
+          <div className="menu__title">My team</div>
         </div>
       </div>
       <div className="settings">
