@@ -11,25 +11,6 @@
   justify-content: center;
 }
 
-.sidetoggle__icons .icons__circles .circle {
-  width: 5px;
-  height: 5px;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-.sidetoggle__icons .icons__circles .circle.circle-1 {
-  background-color: #dba060;
-}
-
-.sidetoggle__icons .icons__circles .circle.circle-2 {
-  background-color: #b5d0c1;
-}
-
-.sidetoggle__icons .icons__circles .circle.circle-3 {
-  background-color: #a5a7a6;
-}
-
 .sidetoggle__icons .icons__decorator {
   display: flex;
   flex-direction: column;
