@@ -37,7 +37,7 @@
 
 .image_rectangle {
   height: 190px;
-  border: 2px dotted #a5a7a6;
+  border: 2px dashed #a5a7a6;
   display: flex;
   flex-direction: column;
   justify-content: center;

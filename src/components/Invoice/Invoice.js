@@ -14,9 +14,6 @@ const Invoice = () => {
           </div>
           <div className="header_icon">
             <i className="fas fa-sliders-h"></i>
-            <span class="material-icons" style={{ color: "black" }}>
-              north_east
-            </span>
           </div>
         </div>
         <div className="invoice_card_row">
